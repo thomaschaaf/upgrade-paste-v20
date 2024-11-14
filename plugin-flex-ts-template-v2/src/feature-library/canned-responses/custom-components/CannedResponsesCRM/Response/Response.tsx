@@ -6,7 +6,7 @@ import { EditIcon } from '@twilio-paste/icons/esm/EditIcon';
 import { SendIcon } from '@twilio-paste/icons/esm/SendIcon';
 import { Tr, Td } from '@twilio-paste/table';
 import { Flex } from '@twilio-paste/flex';
-import { Tooltip } from '@twilio-paste/tooltip';
+import { Tooltip } from '@twilio-paste/core/tooltip';
 
 import { replaceStringAttributes } from '../../../../../utils/helpers';
 
