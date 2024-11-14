@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { ITask, templates } from '@twilio/flex-ui';
 import { Box } from '@twilio-paste/core/box';
-import { Tooltip } from '@twilio-paste/tooltip';
+import { Tooltip } from '@twilio-paste/core/tooltip';
 import { Menu, MenuButton, MenuGroup, useMenuState } from '@twilio-paste/core/menu';
 import { SkeletonLoader } from '@twilio-paste/core/skeleton-loader';
 import { ChatIcon } from '@twilio-paste/icons/esm/ChatIcon';
 import { ErrorIcon } from '@twilio-paste/icons/esm/ErrorIcon';
-import { Button } from '@twilio-paste/button';
+import { Button } from '@twilio-paste/core/button';
 
 import { CannedResponseCategories, ResponseCategory } from '../../types/CannedResponses';
 import CannedResponsesService from '../../utils/CannedResponsesService';
