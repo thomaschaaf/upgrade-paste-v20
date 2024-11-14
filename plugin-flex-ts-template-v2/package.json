@@ -20,8 +20,8 @@
   },
   "dependencies": {
     "@emoji-mart/react": "1.1.1",
-    "@twilio-paste/core": "^18.1.0",
-    "@twilio-paste/icons": "^10.0.0",
+    "@twilio-paste/core": "^20.18.1",
+    "@twilio-paste/icons": "^12.7.0",
     "@twilio/flex-plugin-scripts": "7.0.5",
     "emoji-mart": "5.5.2",
     "lodash": "^4.17.20",
